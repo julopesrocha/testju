@@ -1,0 +1,8 @@
+site_name: "testju"
+site_description: "testju"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

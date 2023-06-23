@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testju
+  description: "testju"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "testju"
+    github.com/project-slug: julia/testju
+    vault.io/secrets-path: "testju"
+    grafana/tag-selector: "testju"
+    grafana/alert-label-selector: "alertname=testju"
+    argocd/proxy-url: '/argocd/api'
+    argocd/app-name: "testju"
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: admin
+
+
+
